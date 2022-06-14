@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links to stylesheet, bulma css, font awesome, google fonts -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+    <title> Weather Dashboard m6 </title>
+</head>
+
+<body>
+    <div class="conainer-fluid">
+        <div class="row">
+            <div class="card my-3">
+                <h4 class="card-hearder">
+                    <i class="fa-solid" fa-magnifying-glass-location mr-1"></i> Search for a city
+                </h4>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="from-group">
+<label for="exampleInputPassword1">
+    <i class="fa-solid" fa-locataion-dot mr-1"></i> City of search 
+</label>
+<input type="Text" class="form-control mr-sm-2" id=" city-search" placeholder="Enter a City" />
+</div>
+ <button type ="submit" class="btn btn-block btn-secondray my-sm-1 my-2" id="search-btn"
+ <i class="fa-solid fa-trash-can mr-1"></i> clear 
+</button>
+
+<h5 class="card-header mt-3 border-dark"><i class="fa-solid fa-clock-rotate-left mr-1"></i> Location History</h5>
+<from id="local-search" class="mt-1 search-history">
+    <!--Not sure if that's correct localStorage placement-->
+</from>
+ </div>
+ </div>
+ </div>
+ <!-- here where i place the weather conditions -->
+<div class="col-md-8">
+<div class="card my-3 bg-dark text-light text-center">
+    <div class="card-body">
+<div id="forecast">
+    <div id="uv-levels">
+
+    </div>
+</div>
+
+    </div>
+</div>
+</div>
+ <div class="row">
+     <div class="col-md-12">
+         <h5 class="card-header">
+             <i class="fa-solid fa-cloud-sun mr-1"></i> Weekly Forecast 
+         </h5>
+         <div class="card-body">
+
+            <div id="weekly" class="row justify-content-center">
+            </div>
+        </div>
+  </div>
+  </div>
+
+
+  <footer class="footer mt-3">
+<div class="content text-center text-light">
+<p>
+    <strong>a herf="#" class= fa-solid fa-cloud-sun-rain mr-1"> </i> Weather Dashboard m6</a></strong>
+    by
+    <a href="https://github.com/jdcarra" target="_blank" alt=" Jonas Carrasco Github">Jonas Carrasco</a>
+    @2022
+</p>
+</div>
+</footer>
+
+
+
+
+
+
+
+    
