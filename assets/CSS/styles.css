@@ -1,0 +1,50 @@
+/* set and Helped by Tutor*/
+*{
+    font-family: 'Hind', sans-serif
+    font-family: 'Times New Roman', Times, serif;
+}
+/* set body view height and width*/
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* navbar link style*/
+.navbar a:hover{
+    color:cornflowerblue
+    text-decoration: none;
+}
+
+/* location Search*/
+.search-history .btn{
+    text-transform: uppercase;
+}
+
+/* footer style*/
+.footer a{
+    color: black;
+}
+.footer a:hover{
+    text-decoration: none;
+    color:bisque
+}
+ /* Media small/desktop*/
+ @media screen and (max-width: 980px) {
+
+ }
+ /* Media for tablets and small*/
+ @media screen and (max-width: 768px) {
+
+ }
+ /* moblie phones and small*/
+ @media screen and (max-width: 600px) {
+     .city{
+         font-size: 18px;
+     }
+     
+ }
+     
+ 
+     
+ 
+
