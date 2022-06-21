@@ -1,17 +1,14 @@
 /* set and Helped by Tutor*/
 *{
-    font-family: 'Hind', sans-serif
+    font-family: 'Hind', sans-serif;
     font-family: 'Times New Roman', Times, serif;
 }
 /* set body view height and width*/
-body{
-    width: 100vw;
-    min-height: 100vh;
-}
+
 
 /* navbar link style*/
 .navbar a:hover{
-    color:cornflowerblue
+    color:cornflowerblue;
     text-decoration: none;
 }
 
